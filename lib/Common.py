@@ -1,4 +1,4 @@
-from enum import Enum, unique, auto
+from enum import Enum, unique
 
 
 @unique
@@ -20,19 +20,17 @@ class Msg(Enum):
 
 
 def Logo():
-	print("          _nnnn_                      ")
-	print("         dGGGGMMb     ,\"\"\"\"\"\"\"\"\"\"\"\"\"\"\".")
-	print("        @p~qp~~qMb    | cryptanalysis |")
-	print("        M|@||@) M|   _;...............'")
-	print("        @,----.JM| -'")
-	print("       JS^\__/  qKL")
-	print("      dZP        qKRb")
-	print("     dZP          qKKb")
-	print("    fZP            SMMb")
-	print("    HZM   Beroni   MMMM")
-	print("    FqM            MMMM")
-	print("  __| \".        |\dS\"qML")
-	print("  |    `.       | `' \Zq")
-	print(" _)      \.___.,|     .'")
-	print(" \____   )MMMMMM|   .'")
-	print("      `-'       `--' ")
+	print("""
+      ______________________________    . \  | / .
+     /                            / \     \ \ / /
+    |      Bnal5tab - Nero       | ==========  - -
+     \____________________________\_/     / / \ \\
+  ______________________________      \  | / | \\
+ /                            / \     \ \ / /.   .
+|       Cryptanalysis        | ==========  - -
+ \____________________________\_/     / / \ \    /
+      ______________________________   / |\  | /  .
+     /                            / \     \ \ / /
+    |        Cryptography        | ==========  -  - -
+     \____________________________\_/     / / \ \\
+                                        .  / | \  .""")
